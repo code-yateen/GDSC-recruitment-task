@@ -1,0 +1,77 @@
+.wrapper {
+    padding: 20px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(110px, auto);
+    border: 2px solid black;
+  }
+
+  .one {
+    grid-column: 1;
+    grid-row: 1/4;
+   background-color: #f32f56;
+   border-top-left-radius: 25px ;
+   display: flex;             
+  justify-content: center;   
+  align-items: center;       
+  }
+
+  .two {
+    grid-column: 2 ;
+    grid-row: 1;
+   background-color: #f9e2d7;
+   font-family: "Edu AU VIC WA NT Dots", cursive;
+   font-size: 25px;
+   display: flex;             
+  justify-content: center;   
+  align-items: center; 
+  }
+
+  .three {
+    grid-column: 3;
+    grid-row: 1/4;
+   background-color: #bbb5fd;
+   border-top-right-radius: 25px ;
+   display: flex;             
+  justify-content: center;   
+  align-items: center; 
+  }
+
+  .four {
+    grid-column: 1/3;
+    grid-row: 4;
+    background-color: #a8fbaa;
+    border-bottom-left-radius: 25px ;
+    display: flex;             
+  justify-content: center;   
+  align-items: center; 
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+  }
+
+  .five {
+    grid-column: 2;
+    grid-row: 2/4;
+    background-color: #251e21;
+    display: flex;             
+  justify-content: center;   
+  align-items: center; 
+  color: white;
+  font-family: "Dancing Script", cursive;
+  font-size: 35px;
+  }
+  
+  .six {
+    grid-column: 3;
+    grid-row: 4;
+    background-color: #f9e2d7;
+    border-bottom-right-radius: 25px ;
+    display: flex;             
+  justify-content: center;   
+  align-items: center; 
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 30px;
+  }
+  
